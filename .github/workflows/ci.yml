@@ -2,11 +2,7 @@ name: Flutter CI
 
 on:
   push:
-    branches:
-      - 'flutter/**'
   pull_request:
-    branches:
-      - 'flutter/**'
 
 jobs:
   test:
